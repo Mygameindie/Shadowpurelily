@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Dress-Up Game</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="three_scroll_bar_style.css">
+    <link rel="stylesheet" href="scroll.css">
+    <link rel="stylesheet" href="inline.css">
+</head>
+<body>
+
+    <!-- MAIN MENU -->
+    <div class="main-menu">
+        <img src="Mainmenu.png" alt="Main Menu Image">
+        <button onclick="enterGame()">Play</button>
+    </div>
+
+    <!-- GAME -->
+    <div class="game-container">
+
+        <!-- BASE -->
+        <div class="base-container">
+            <img id="base-image" src="Base.png" alt="Base Image">
+            <img id="base2-image" src="Base2.png" alt="Base 2" style="display:none;">
+            <img id="base3-image" src="Base3.png" alt="Base 3" style="display:none;">
+            <img id="base4-image" src="Base4.png" alt="Base 4" style="display:none;">
+
+            <!-- SMALL BUTTONS (USED BY TOY SYSTEM) -->
+            <button id="small-btn-1"
+                class="small-button button-1"
+                onclick="changeToBase2()"
+                style="position:absolute; z-index:11;"></button>
+
+            <button id="small-btn-2"
+                class="small-button button-2"
+                onclick="changeToBase3()"
+                style="position:absolute; z-index:11;"></button>
+
+            <button id="small-btn-3"
+                class="small-button button-3"
+                onclick="changeToBase4()"
+                style="position:absolute; z-index:11;"></button>
+
+            <button id="wind-button">🌬 Wind</button>
+        </div>
+
+        <!-- CONTROLS -->
+        <div class="controls">
+            <!-- 1. Presets -->
+            <div class="combined-scroll-bar" id="presetScrollBar"></div>
+
+            <!-- 2. Categories -->
+            <div class="combined-scroll-bar" id="categoryScrollBar"></div>
+
+            <!-- 3. Items -->
+            <div class="scrollable-buttons"></div>
+
+            <!-- 4. TOYS (NEW) -->
+            <div class="combined-scroll-bar toy-scroll-bar" id="toyScrollBar"></div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="config.js"></script>
+    <script src="loader.js"></script>
+    <script src="zindex.js"></script>
+    <script src="visibility.js"></script>
+    <script src="recolor.js"></script>
+    <script src="colorpicker.js"></script>
+    <script src="enhanceColorPicker.js"></script>
+    <script src="layout.js"></script>
+    <script src="buttons.js"></script>
+    <script src="faceReset.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="preset.js"></script>
+    <script src="scrolls.js"></script>
+    <script src="wind.js"></script>
+    <script src="tint.js"></script>
+
+    <!-- TOY SYSTEM -->
+    <script src="toy.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+[
+  { "name": "toy1.png", "smallButtons": [1,2] },
+  { "name": "toy2.png", "smallButtons": [1] },
+  { "name": "toy3.png", "smallButtons": [2] }
+]
