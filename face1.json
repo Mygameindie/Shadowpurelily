@@ -1,0 +1,62 @@
+[
+  {
+    "id": "face1_1",
+    "src": "face1_1.png",
+    "alt": "face 1 Option 1",
+    "visibility": "hidden"
+  },
+  {
+    "id": "face1_2",
+    "src": "face1_2.png",
+    "alt": "face 1 Option 2",
+    "visibility": "hidden"
+  },
+  {
+    "id": "face1_3",
+    "src": "face1_3.png",
+    "alt": "face 1 Option 3",
+    "visibility": "hidden"
+  },
+  {
+    "id": "face1_4",
+    "src": "face1_4.png",
+    "alt": "face 1 Option 4",
+    "visibility": "hidden"
+  },
+  {
+    "id": "face1_5",
+    "src": "face1_5.png",
+    "alt": "face 1 Option 5",
+    "visibility": "hidden"
+  },
+  {
+    "id": "face1_6",
+    "src": "face1_6.png",
+    "alt": "face 1 Option 6",
+    "visibility": "hidden"
+  },
+  {
+    "id": "face1_7",
+    "src": "face1_7.png",
+    "alt": "face 1 Option 7",
+    "visibility": "hidden"
+  },
+  {
+    "id": "face1_8",
+    "src": "face1_8.png",
+    "alt": "face 1 Option 8",
+    "visibility": "hidden"
+  },
+  {
+    "id": "face1_9",
+    "src": "face1_9.png",
+    "alt": "face 1 Option 9",
+    "visibility": "hidden"
+  },
+  {
+    "id": "face1_10",
+    "src": "face1_10.png",
+    "alt": "face 1 Option 10",
+    "visibility": "hidden"
+  }
+]
